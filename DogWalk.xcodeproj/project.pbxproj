@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		10753E0725161235008FF167 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10753E0625161235008FF167 /* CoreDataStack.swift */; };
 		10753E0C25161853008FF167 /* DogWalk.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 10753E0A25161853008FF167 /* DogWalk.xcdatamodeld */; };
+		10753E1225161EBA008FF167 /* Dog+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10753E0E25161EBA008FF167 /* Dog+CoreDataClass.swift */; };
+		10753E1325161EBA008FF167 /* Dog+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10753E0F25161EBA008FF167 /* Dog+CoreDataProperties.swift */; };
+		10753E1425161EBA008FF167 /* Walk+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10753E1025161EBA008FF167 /* Walk+CoreDataClass.swift */; };
+		10753E1525161EBA008FF167 /* Walk+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10753E1125161EBA008FF167 /* Walk+CoreDataProperties.swift */; };
 		FE0EF93022FDDF4C00D0800D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0EF92F22FDDF4C00D0800D /* AppDelegate.swift */; };
 		FE0EF93222FDDF4C00D0800D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0EF93122FDDF4C00D0800D /* SceneDelegate.swift */; };
 		FE0EF93422FDDF4C00D0800D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0EF93322FDDF4C00D0800D /* ViewController.swift */; };
@@ -20,6 +24,10 @@
 /* Begin PBXFileReference section */
 		10753E0625161235008FF167 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		10753E0B25161853008FF167 /* DogWalk.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DogWalk.xcdatamodel; sourceTree = "<group>"; };
+		10753E0E25161EBA008FF167 /* Dog+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dog+CoreDataClass.swift"; sourceTree = "<group>"; };
+		10753E0F25161EBA008FF167 /* Dog+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dog+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		10753E1025161EBA008FF167 /* Walk+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Walk+CoreDataClass.swift"; sourceTree = "<group>"; };
+		10753E1125161EBA008FF167 /* Walk+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Walk+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		FE0EF92C22FDDF4C00D0800D /* DogWalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DogWalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE0EF92F22FDDF4C00D0800D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FE0EF93122FDDF4C00D0800D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -44,6 +52,10 @@
 		10753E0525161214008FF167 /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
+				10753E0E25161EBA008FF167 /* Dog+CoreDataClass.swift */,
+				10753E0F25161EBA008FF167 /* Dog+CoreDataProperties.swift */,
+				10753E1025161EBA008FF167 /* Walk+CoreDataClass.swift */,
+				10753E1125161EBA008FF167 /* Walk+CoreDataProperties.swift */,
 				10753E0625161235008FF167 /* CoreDataStack.swift */,
 				10753E0A25161853008FF167 /* DogWalk.xcdatamodeld */,
 			);
@@ -186,11 +198,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10753E1225161EBA008FF167 /* Dog+CoreDataClass.swift in Sources */,
+				10753E1525161EBA008FF167 /* Walk+CoreDataProperties.swift in Sources */,
 				FE0EF93422FDDF4C00D0800D /* ViewController.swift in Sources */,
 				FE0EF93022FDDF4C00D0800D /* AppDelegate.swift in Sources */,
 				FE0EF93222FDDF4C00D0800D /* SceneDelegate.swift in Sources */,
 				10753E0725161235008FF167 /* CoreDataStack.swift in Sources */,
 				10753E0C25161853008FF167 /* DogWalk.xcdatamodeld in Sources */,
+				10753E1425161EBA008FF167 /* Walk+CoreDataClass.swift in Sources */,
+				10753E1325161EBA008FF167 /* Dog+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
