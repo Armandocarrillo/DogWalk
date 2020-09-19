@@ -1,6 +1,7 @@
 
 
 import UIKit
+import CoreData
 
 class ViewController: UIViewController {
 
@@ -11,6 +12,8 @@ class ViewController: UIViewController {
     formatter.timeStyle = .medium
     return formatter
   }()
+  
+  lazy var coreDataStack = CoreDataStack(modelName: "DogWalk")
 
   var walks: [Date] = []
 
